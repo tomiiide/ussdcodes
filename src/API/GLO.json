@@ -1,0 +1,9 @@
+{
+    "GLO" : [
+      {            
+        "code": "*545*pin#",
+        "details": "Load Airtime",
+        "network": "GLO"
+      }
+  ]
+}
