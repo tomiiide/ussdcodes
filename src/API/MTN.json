@@ -1,15 +1,20 @@
 {
-"MTN" : [{
+"MTN" : [
+      {
+        "code" : "*123#",
+        "details" : "Service Menu"
+      },
+      {
         "code": "*556#",
         "details": "Check data Balance"
       },
       {
-        "code": "*552#",
-        "details": "Load data"
-      },
-      {
         "code": "*555*pin#",
         "details": "Load Airtime"
+      },
+      {
+        "code": "*131*4#",
+        "details": "Check Data Balance"
       }
 ]
 }

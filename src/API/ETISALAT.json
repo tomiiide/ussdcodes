@@ -2,8 +2,19 @@
   "ETISALAT" : [
     
     {
-    "code" : "*124#",
-    "details" : "i dont even know"
-  }
+    "code" : "*200#",
+    "details" : "Self Service Menu",
+    "network" : "ETISALAT"
+  },
+  {
+        "code": "*228#",
+        "details": "Check data balance",
+        "network" : "ETISALAT"
+      },
+        {
+        "code": "*556#",
+        "details": "Check airtime balance",
+        "network" : "ETISALAT"
+      }
   ]
 }

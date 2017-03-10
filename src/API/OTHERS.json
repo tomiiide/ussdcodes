@@ -2,10 +2,66 @@
   "OTHERS" : [
     
     {
-    "code" : "*124#",
-    "details" : "i dont even know",
-    "company" : "Access Bank"
+    "code" : "*737#",
+    "details" : "GTB USSD Banking Menu",
+    "company" : "GTB Bank"
+  },
+      {
+    "code" : "*770#",
+    "details" : "FIDELITY USSD Banking Menu",
+    "company" : "FIDELITY Bank"
+  },
+  {
+    "code" : "*894#",
+    "details" : "FIRST BANK USSD Banking Menu",
+    "company" : "FIRST Bank"
+  },
+  {
+    "code" : "*945#",
+    "details" : "WEMA BANK USSD Banking Menu",
+    "company" : "WEMA Bank"
+  },
+  {
+    "code" : "*822#",
+    "details" : "STERLING BANK USSD Banking Menu",
+    "company" : "STERLING BANK"
+  },
+  {
+    "code" : "*833#",
+    "details" : "SKYE BANK USSD Banking Menu",
+    "company" : "SKYE BANK"
+  },
+  {
+    "code" : "*710#",
+    "details" : "DIAMOND BANK USSD Banking Menu",
+    "company" : "DIAMOND BANK"
+  },
+  {
+    "code" : "*326#",
+    "details" : "ECOBANK USSD Banking Menu",
+    "company" : "ECOBANK"
+  },
+  {
+    "code" : "*966#",
+    "details" : "ZENITH BANK USSD Banking Menu",
+    "company" : "ZENITH BANK"
+  },
+  {
+    "code" : "*389*214#",
+    "details" : "FCMB USSD Banking Menu",
+    "company" : "FCMB"
+  },
+  {
+    "code" : "*389*215#",
+    "details" : "UNITY BANK USSD Banking Menu",
+    "company" : "UNITY BANK"
+  },
+  {
+    "code" : "*919#",
+    "details" : "UBA USSD Banking Menu",
+    "company" : "UBA"
   }
+  
    
   ]
 }

@@ -1,10 +1,16 @@
 {
   "AIRTEL" : [
-    
     {
-    "code" : "*124#",
-    "details" : "i dont even know"
+    "code" : "*126*pin#",
+    "details" : "Load Airtime"
+  },
+  {
+    "code" : "*123#",
+    "details" : "Check airtime balance"
+  },
+  {
+    "code" : "*121*5*1#",
+    "details" : "View own number"
   }
-  
   ]
 }
