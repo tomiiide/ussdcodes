@@ -6,8 +6,6 @@ import airtel from '../img/airtel.svg';
 import mtn from '../img/mtn.svg';
 import glo from '../img/glo.png';
 import etisalat from '../img/etisalat.png';
-import { GridList, GridTile } from 'material-ui/GridList';
-import FlatButton from 'material-ui/FlatButton';
 import GridContent from './GridContent';
 import MTNCodes from '../API/MTN.json';
 import ETISALATCodes from '../API/ETISALAT.json';
@@ -17,15 +15,6 @@ import OTHERSCodes from '../API/OTHERS.json';
  
 
 class TabMenu extends Component{
-  constructor(props) {
-    super(props);
-   
-  }
-
-  componentWillMount() {
-}  
-
-
   
   render() {
     return (

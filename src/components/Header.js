@@ -6,19 +6,21 @@ import Search from 'material-ui/svg-icons/action/search';
 import {white} from 'material-ui/styles/colors';
 
 
-let results = ['*44#', '*556#', '*123#'];
 
 
 class Header extends Component{
 constructor(props){
   super(props);
   this.state = {
-  searchActive : false    
+    searchActive: false,   
+    results : ['*44#', '*556#', '*123#']  
   };  
   this.handleSearchClick = this.handleSearchClick.bind(this);  
 }
 
-
+/**
+ * @todo add search functionality
+ */
 handleSearchClick(){
   console.log(this.state.searchActive);
   if (this.state.searchActive) {
@@ -37,9 +39,12 @@ handleSearchClick(){
           style={{boxShadow : "none"}}      
     iconElementRight={
             <div>
-              <IconButton onClick={this.handleSearchClick}><Search color={white} /></IconButton>
+              <IconButton
+                onClick={this.handleSearchClick}>
+                <Search color={white} />
+              </IconButton>
               <AutoComplete
-                dataSource={results}
+                dataSource={this.state.results}
                 textFieldStyle={{ color: white, width: this.state.searchActive ? "" : "20px" }}
                 name="search"
                 style={{ color: white, width: this.state.searchActive ? "" : "20px" }}

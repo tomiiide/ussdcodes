@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../components/Header';
 import TabMenu from '../components/TabMenu';
+import Footer from '../components/Footer';
 
 
 class Container extends Component{
@@ -9,6 +10,7 @@ class Container extends Component{
       <div>
         <Header />
         <TabMenu/>
+        <Footer />
       </div>
     );
   }
